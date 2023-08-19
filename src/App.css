@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.App {
+  text-align: center;
+  font-size: x-large;
+  padding:5%;
+  background-image: url(./images/pex.png);
+  background-color: rgb(170, 170, 133);
+  background-blend-mode: darken;
+  overflow-x: hidden;
+  justify-content: space-evenly 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+*{
+
+  font-family: 'Poppins', Courier, monospace;
+  color: white;
+  
+
+}
+
+input[type=text]{
+  background-color: rgb(107, 203, 120);
+  width: 50vw;
+  height: 10vh;
+  font-size: xx-large;
+  padding:3%;
+  color: rgb(13, 55, 154);
+  border:12px solid rgb(31, 196, 202);
+  border-radius: 20px;
+}
+
+.subx{
+  margin:5%;
+  width: fit-content;
+  height: 10vh;
+  font-size: xx-large;
+  border:solid rgb(27, 181, 99) 12px;
+  border-radius: 20px;
+  background-color: aqua;
+}
